@@ -2,5 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
 
-   
+/* Estilizando o thumb (alça) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #007bff; /* Azul primário */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+/* Estilizando a área de rolagem (background da barra de rolagem) */
+::-webkit-scrollbar-track {
+    background-color: #5db6ff; /* Azul claro - bg-sky-700 */
+}
+
+/* Estilizando os botões de seta (caso o navegador os exiba) */
+::-webkit-scrollbar-button {
+    background-color: #ccc; /* Cor dos botões */
+}
+
