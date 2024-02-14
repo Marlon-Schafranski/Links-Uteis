@@ -5,6 +5,7 @@ import Menu from "@/components/ui/menu";
 import Intro from "@/components/ui/intro";
 import Links from "@/components/ui/links";
 import Projects from "@/components/ui/project";
+import Footer from "@/components/ui/footer";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <Intro />
         <Links />
         <Projects />
+        <Footer />
       </body>
     </html>
   );

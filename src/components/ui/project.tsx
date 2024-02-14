@@ -1,5 +1,6 @@
 import { BookmarkCheck, Construction, Github } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from "./card";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -19,7 +20,7 @@ const Projects = () => {
           <CardFooter>
             <div className="flex items-center gap-3">
               <Github className="w-6 h-6" />
-              <a href="https://github.com/Marlon-Schafranski/fake-api-us-tcc.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</a>
+              <Link href="https://github.com/Marlon-Schafranski/fake-api-us-tcc.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</Link>
             </div>
           </CardFooter>
         </Card>
@@ -36,7 +37,7 @@ const Projects = () => {
           <CardFooter>
             <div className="flex items-center gap-3">
               <Github className="w-6 h-6" />
-              <a href="https://github.com/Marlon-Schafranski/my-app.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</a>
+              <Link href="https://github.com/Marlon-Schafranski/my-app.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</Link>
             </div>
           </CardFooter>
         </Card>
@@ -53,7 +54,7 @@ const Projects = () => {
           <CardFooter>
             <div className="flex items-center gap-3">
               <Github className="w-6 h-6" />
-              <a href="https://github.com/Marlon-Schafranski/Nexo-Bank-Concertado-main-main.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</a>
+              <Link href="https://github.com/Marlon-Schafranski/Nexo-Bank-Concertado-main-main.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</Link>
             </div>
           </CardFooter>
         </Card>
@@ -71,7 +72,7 @@ const Projects = () => {
           <CardFooter>
             <div className="flex items-center gap-3">
               <Github className="w-6 h-6" />
-              <a href="https://github.com/Marlon-Schafranski/new-portfolio.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</a>
+              <Link href="https://github.com/Marlon-Schafranski/new-portfolio.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</Link>
             </div>
           </CardFooter>
         </Card>
@@ -88,7 +89,7 @@ const Projects = () => {
           <CardFooter>
             <div className="flex items-center gap-3">
               <Github className="w-6 h-6" />
-              <a href="https://github.com/Marlon-Schafranski/Pic-Pay-Simplificado-Back-end.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</a>
+              <Link href="https://github.com/Marlon-Schafranski/Pic-Pay-Simplificado-Back-end.git" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</Link>
             </div>
           </CardFooter>
         </Card>
@@ -105,7 +106,7 @@ const Projects = () => {
           <CardFooter>
             <div className="flex items-center gap-3">
               <Github className="w-6 h-6" />
-              <a href="#" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</a>
+              <Link href="#" className="font-medium text-base text-blue-600 hover:text-blue-800">Acessar repositório GitHub</Link>
             </div>
           </CardFooter>
         </Card>
